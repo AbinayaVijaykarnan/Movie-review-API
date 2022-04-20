@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review App</title>
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="movie.css">
+
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/98be6a7515.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div>
+        <header id="header">
+            <h1> <span> NYT </span> MOVIE REVIEWS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni molestiae, quasi cupiditate ab voluptatibus excepturi eaque aperiam itaque impedit officia dolore, sapiente nemo cumque. Quas, molestias. Modi quam perferendis ut ullam architecto
+                distinctio, accusantium et quibusdam nisi, dolorum corporis harum praesentium maxime nostrum atque. Consectetur voluptate corrupti commodi itaque quam?</p>
+
+            <form id="form" name="formdata">
+
+                <input type="text" id="input" placeholder="Search By Movie Name" name="moviesearch" /> <button type="button" id="searchedMovieButton"> <i class='fas fa-search ps-2'></i> </button>
+
+                <!-- <input type="text" id="input" placeholder="Search By Movie Name" name="moviesearch" /> <button type="button" id="searchedMovieButton"> <i class='fas fa-search ps-2'></i> </button> -->
+
+                <input type="text" id="criticsInput" placeholder="Search By Author Name" name="criticssearch" /> <button type="button" id="criticsButton"> <i class='fas fa-search ps-2'></i> </button>
+
+                <button type="button" id="allMoviesButton"> For All Movies - Click Here </button>
+
+                <button type="submit" id="searchButton"> Reset </button>
+
+            </form>
+
+
+            <div id="coverpage">
+
+            </div>
+        </header>
+
+    </div>
+
+    <!--Appending all Movies that we get from the API -->
+    <main id="main">
+        <!--  <h1 id="mainHeading">All Movies</h1> -->
+        <div id="wrapper">
+
+        </div>
+    </main>
+
+
+    <!-- Linking multiple javascript files: -->
+
+    <script type="module" src="movie.js">
+    </script>
+
+</body>
+
+</html>
+
+
+
+<!--Appending searched movies alone-->
+<!-- <div id="searchDiv">
+        <h1 id="searchHeading">Searched Movies</h1>
+        <div id="searchedMovies">
+
+        </div>
+    </div> -->
+
+<!-- Appending Reviewer alone -->
+<!-- <div id="criticsDiv">
+        <h1 id="criticsHeading">Movie Critics</h1>
+        <div id="criticsContent">
+
+        </div>
+    </div> -->
+
+<!-- **************************************-->
+
+<!-- <script type="text/javascript" src="getElements.js"></script>
+
+    <script type="text/javascript" src="getApi.js"></script>
+
+    <script type="text/javascript" src="searchMovies.js"></script>
+
+    <script type="text/javascript" src="getAllMovies.js"></script>
+
+    <script type="text/javascript" src="critics.js"></script> -->
